@@ -1,0 +1,19 @@
+Group 6 Project Proposals: Noah, Guanzhang, Kamoltat, Tiam
+
+Project Idea 1: 
+
+Our primary idea consists of creating an application that would utilize the spotify api 
+to get a users playlist, and can generate an audio visualizer. We would also use a database that contains 
+the images of covers that would be either the audio visualizer itself or in the background. This application would be 
+mainly used when someone is having people over, and wants a visual available in addition to the music. 
+Here is a link to an example (https://www.youtube.com/watch?v=s8XIgR5OGJc)
+
+
+
+Project Idea 2: 
+
+Our second choice for a project would be a travel site that would 
+provide recommendations for various activities to do in Boston. These 
+activities can vary from Historical sites and local attractions, restaurants, 
+night life,and event such as concerts. We would utilize various api's such as Google Maps, Yelp, 
+eventbrite, and weather api in gathering data and aiding in creating recommendations.
