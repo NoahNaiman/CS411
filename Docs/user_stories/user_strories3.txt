@@ -1,0 +1,7 @@
+User Persona:
+
+Max is a person who really enjoys music, parties/get-togethers. He uses spotify very often, however, spotify doesn't really offer any kind of audio visualization, he cannot get on to youtube as well because he only paid for spotify subscription and not youtube premium, therefore, he wants to be able to have a platform where he can just link up his spotify account and the platform would just genrate the visualizer for. 
+
+
+User Story3:
+As Max, I want to be able to customize the background of the visualizer, such that it fits with the theme of the party.  

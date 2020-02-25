@@ -1,0 +1,17 @@
+-- Audio Visualizer Web App --
+
+User Persona:
+
+Max is a person who really enjoys music, parties/get-togethers. He uses spotify very often, however, spotify doesn't really offer any kind of audio visualization, he cannot get on to youtube as well because he only paid for spotify subscription and not youtube premium, therefore, he wants to be able to have a platform where he can just link up his spotify account and the platform would just genrate the visualizer for. 
+
+User Story1:
+As Max, I want to be able to access my Spotify playlist from anywhere, such thatI can play them on a TV at parties.
+
+User Story2:
+As Max, I want to be able to auto-generate an audio visualizer on a platform that I can display on the tv, such that everyone in the party can see.
+
+User Story3:
+As Max, I want to be able to customize the background of the visualizer, such that it fits with the theme of the party.  
+
+User Story4:
+As Max, I want to be able to add or play some animation on the visualizer, such that it will add color to the party.
