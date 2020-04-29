@@ -1,0 +1,305 @@
+      body {
+        overflow: hidden;
+        width:  100%;
+        height: 100%;
+        margin: 0px;
+        background-image: url("resources/hardwell.jpg");
+        background-size:     cover;
+        background-repeat:   no-repeat;
+        background-position: center center;
+        background-color: indigo;
+        color: black;
+        font-family: tahoma, verdana, sans serif;
+        z-index: 10;
+      }
+
+      nav {
+        border-radius: 10px;
+        width: 90%;
+        top: 25px;
+        left: 5%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        position: fixed;
+        z-index: 15;
+      }
+
+      .topnav-item {
+        float: left;
+        width: 15vw;
+        margin-left: 15px;
+      }
+
+      .fa-caret-square-down:hover {
+        color: gray;
+      }
+
+      .topnav-search {
+        float: right;
+        width: calc(45vw - 60px);
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+      }
+
+      .topnav-search input {
+        float: left;
+      }
+
+      h1 {
+        font-size: 25px;
+        vertical-align: middle;
+        margin: 0;
+      }
+
+      #app-title-container {
+        overflow: hidden;
+        max-height: 60%;
+      }
+
+      #app-title {
+        font-family: "Shrikhand", Arial;
+        color: rgb(241, 43, 43);
+        text-shadow: 2px 2px rgb(3, 0, 1);
+      }
+
+      h2 {
+        font-size: 22px;
+        vertical-align: middle;
+        margin: 0;
+        float: left;
+      }
+
+      i {
+        float: right;
+      }
+
+      #sp-signin {
+        color: green;
+      }
+
+      .logged-in, .logged-out {
+        display: none;
+      }
+
+      .av-dropdown {
+        height: 20vh;
+        position: fixed;
+        top: 85px;
+        z-index: 15;
+        opacity: .8;
+        border-radius: 5px;
+      }
+
+      #tracklist-dropdown {
+        left: calc(10vw + 30px);
+        width: 20%;
+        display: none;
+      }
+
+      #tracklist-container {
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 10px;
+      }
+
+      #trackSelect {
+        width: 100% !important;
+        background-color: #574BE8;
+      }
+
+      #trackSelect option {
+        width: 100% !important;
+        background-color: #574BE8;
+      }
+
+      #effects-dropdown {
+        left: 40%;
+        width: 30%;
+        display: none;
+      }
+
+      #visual-control-tabs {
+        width: calc(100% - 20px);
+        margin-left: 10px;
+        margin-top: 10px;
+      }
+
+      #visual-controls {
+
+      }
+
+      .nav-item {
+        background-color: #1E6075;
+        width: 33.33%;
+        height: 45px;
+        overflow: hidden;
+      }
+
+      .nav-item.active {
+        color: #DCDEAC !important;
+      }
+
+      /*I know you shouldn't use !important, but I didn't
+      see anything about it in the project rubric, I'm low on time,
+      and bootstrap keeps over-riding my css rules*/
+      .nav-link.active {
+        background-color: #2DA89C !important;
+        border-color: #2DEBAE !important;
+        color: #DCDEAC !important;
+      }
+
+      .tab-pane {
+        width: calc(100% - 20px);
+        margin-left: 10px;
+        padding-top: 10px;
+        background-color: #2DA89C;
+        height: 10vh;
+        overflow: auto;
+      }
+
+      .effect-item {
+        margin-left: 15px;
+      }
+
+      #tricirc-item {
+        width: 100%;
+      }
+
+      #tricirc-item span {
+        display: flex;
+        align-items: center;
+      }
+
+      #tricirc-item label, #tricirc-item input {
+        margin: 0 15px;
+      }
+
+      #tcSliderResults {
+        background-color: lightblue;
+      }
+
+      #threshold-row {
+        width: 100%;
+        display: flex;
+        align-items: center;
+      }
+
+      #threshold-row label, #threshold-row input {
+        margin: 0 15px;
+      }
+
+      #thSliderResults {
+        background-color: lightblue;
+      }
+
+      #sp-results-box {
+        left: calc(75vw - 15px);
+        width: 20%;
+        display: none;
+      }
+
+      #sp-searches {
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 10px;
+      }
+
+      #audio-player {
+        width: 50%;
+        border-radius: 10px;
+        position: fixed;
+        left: 25%;
+        top: 80%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        background-color: white;
+      }
+
+      audio {
+        width: 90%;
+        margin: auto 5%;
+      }
+
+      #bottom-section {
+        width: 100%;
+        position: fixed;
+        top: 95%;
+        height: 5%;
+        color: white;
+      }
+
+      .bottom-section-third {
+        width: 30%;
+        text-align: center;
+      }
+
+      #madeby {
+        float: left;
+      }
+
+      #np-scroll-box {
+        float: left;
+        margin-left: 5%;
+      }
+
+      #view-code {
+        float: right;
+      }
+
+      #guiBox {
+        position: fixed;
+        background-color: gray;
+        width: 400px;
+        z-index: 5;
+      }
+
+
+
+      #controls{
+        margin-left:10px;
+        margin-top:10px;
+      }
+
+      #sp-search-field {
+        margin-left: 15px;
+        float: left;
+        width: 250px;
+      }
+
+      .search-item {
+        width: 100%;
+        text-overflow: ellipsis;
+        background-color: lightblue;
+        border: 3px solid purple;
+      }
+
+      #settings {
+        margin-top: 10px;
+      }
+
+      video {
+        position: fixed;
+        visibility: hidden;
+        z-index: -50;
+        background: rgba(0, 0, 0, 0);
+      }
+
+      #canvas {
+        background: rgba(0, 0, 0, 0);
+        z-index: 2;
+      }
+
+      .add-button {
+        background-color: #0A547F;
+        width: 85px;
+        height: 25px;
+        padding: 0 5px;
+        border-radius: 5px;
+      }
+
+      .add-button:hover {
+        background-color: green;
+      }
