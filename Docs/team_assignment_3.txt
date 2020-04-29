@@ -1,0 +1,5 @@
+The technology stack we chose to go with was pretty simple, being Node, Express, and Firebase. We chose Node as it is almost a defacto in web-dev, without the complications of frameworks such as React, as we felt using them would be overkill. For routing we used Express. All of us were comfortable with this choice as we had worked with it before and it is rather simple to use. Finally, we chose to use Firebase as our database. Integrating Firebase into an app is a simple process that allowed us to skip the development issues of creating a local database instance.
+
+We also considered using React instead of basice Node. However, after some discussion it was decided this would be overkill and just create a lot of bloatware. We wanted something simple and clean. While React simplifies a lot, it does have a learning curve.
+
+For databases, we considered using Mongodb as well. But we decided our data would be better stored in a relational database.
