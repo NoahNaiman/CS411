@@ -72,9 +72,9 @@
 
     //Add song name variables to the default songs
     defaultSongs = document.getElementsByClassName("default-song");
-    defaultSongs[0].displayName = "New Adventure Theme";
-    defaultSongs[1].displayName = "Peanuts Theme";
-    defaultSongs[2].displayName = "The Picard Song";
+    defaultSongs[0].displayName = "Apollo";
+    defaultSongs[1].displayName = "Cinema";
+    defaultSongs[2].displayName = "Levels";
 
     //Set Closure-scoped variables for Spotify elements
     spSearchButton = document.getElementById("sp-search-button");

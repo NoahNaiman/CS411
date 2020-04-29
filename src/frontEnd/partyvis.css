@@ -14,6 +14,7 @@
       }
 
       nav {
+        color: rgb(252, 242, 99);
         border-radius: 10px;
         width: 90%;
         top: 25px;
@@ -26,6 +27,7 @@
       }
 
       .topnav-item {
+        color: rgb(252, 242, 99);
         float: left;
         width: 15vw;
         margin-left: 15px;
@@ -56,6 +58,7 @@
       #app-title-container {
         overflow: hidden;
         max-height: 60%;
+        color: lightgreen;
       }
 
       #app-title {
@@ -106,12 +109,12 @@
 
       #trackSelect {
         width: 100% !important;
-        background-color: #574BE8;
+        background-color: rgb(252, 242, 99);
       }
 
       #trackSelect option {
         width: 100% !important;
-        background-color: #574BE8;
+        background-color: rgb(252, 242, 99);
       }
 
       #effects-dropdown {
@@ -154,7 +157,7 @@
         width: calc(100% - 20px);
         margin-left: 10px;
         padding-top: 10px;
-        background-color: #2DA89C;
+        background-color: rgb(168, 145, 45);
         height: 10vh;
         overflow: auto;
       }
@@ -215,7 +218,7 @@
         height: 50px;
         display: flex;
         align-items: center;
-        background-color: white;
+        background-color: rgb(8, 3, 3);
       }
 
       audio {
