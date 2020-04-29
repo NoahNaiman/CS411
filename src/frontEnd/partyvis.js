@@ -74,7 +74,7 @@
     defaultSongs = document.getElementsByClassName("default-song");
     defaultSongs[0].displayName = "Apollo";
     defaultSongs[1].displayName = "Cinema";
-    defaultSongs[2].displayName = "Levels";
+    defaultSongs[2].displayName = "Levelscs";
 
     //Set Closure-scoped variables for Spotify elements
     spSearchButton = document.getElementById("sp-search-button");
